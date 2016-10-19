@@ -1,17 +1,19 @@
-body {color:  #FF2D2D;
+body {color:#4F9D9D;
  font-size: 27px;
  margin-left: 110px;
- background-color:#A6FFFF;
+ background-color:#BBFFBB;
+ font-weight: bold;
 }
 h1 {
 color: black;
-background-color:#00BB00;
+background-color:#8CEA00;
  margin-left: 20px;
  font-size: 40px;
  }
 h2{
-color:#02DF82;
-font-size:1
+color:#FBFBFF;
+font-size:27px;
+background-color:#548C00;
 }
 
             
