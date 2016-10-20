@@ -3,7 +3,7 @@ body {color:#4F9D9D;
       margin-left: 110px;
       background-color::#BBFFBB;
       font-weight: bold;
-      font-family:"Lucida Console";
+      font-family:"Lucida Console","Microsoft JhengHei";
       background-image: url("http://i.imgur.com/03okMFy.jpg");
       }
 h1 {
@@ -18,4 +18,5 @@ h2{
       font-size:25px;
       background-color:#CEFFCE;
       font-family:"Microsoft JhengHei";
+      border-style: solid;
   }
