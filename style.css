@@ -1,22 +1,26 @@
 body {color:#4F9D9D;
-      font-size: 27px;
-      margin-left: 110px;
-      background-color::#BBFFBB;
-      font-weight: bold;
-      font-family:"Lucida Console","Microsoft JhengHei";
-      background-image: url("http://i.imgur.com/03okMFy.jpg");
-      }
+ font-size: 27px;
+ margin-left: 110px;
+ background-color::#BBFFBB;
+ font-weight: bold;
+ font-family:"Lucida Console","Microsoft JhengHei";
+background-image: url("http://i.imgur.com/03okMFy.jpg");
+}
 h1 {
-      color:#8E8E8E;
-      background-color:#79FF79;
-      margin-left: 20px;
-      font-size: 40px;
-      font-family:"Lucida Console";
-    }
+color:#8E8E8E;
+background-color:#79FF79;
+ margin-left: 20px;
+ font-size: 40px;
+ font-family:"Lucida Console";
+ }
 h2{
-      color:#408080;
-      font-size:25px;
-      background-color:#CEFFCE;
-      font-family:"Microsoft JhengHei";
-      border-style: solid;
-  }
+color:#408080;
+font-size:25px;
+background-color:#CEFFCE;
+font-family:"Microsoft JhengHei";
+border-style: solid;
+display:none;
+}
+p{
+display:none;
+}
