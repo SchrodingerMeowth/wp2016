@@ -1,47 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Full Motion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>web design</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="jquery-3.1.1.min.js"></script>
+		<title>Joe's web page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
-				$("h3").click(function(){
-				$("h2").fadeToggle();
+				$("#show").click(function(){
+					$("#aboutme").show(300);
+					$("#hide").show(300);
+					$("#show").hide(300);
+				});
+				$("#hide").click(function(){
+					$("#aboutme").hide(500);
+					$("#show").show(500);
+					$("#hide").hide(500);
 				});
 			});
-			$(document).ready(function(){
-				$("h4").click(function(){
-				$("p").fadeToggle();
-				});
-			});
-			
 		</script>
-		
 	</head>
-	<body>
-		<marquee bgcolor=#DCB5FF>Welcome!!!!</marquee>
-		<center>
-			<h1>Web Design</h1>
-		</center>
-			張喬的網路空間<br>
-			Joe's web page<br>
-		        <br>
-		        成大電機工程學系108<br>
-			NCKU EE 108
-			<h3>About me</h3>
-			<h2>
-			哈囉~歡迎光臨!!<br>
-			我是電機二甲的張喬<br>
-			興趣是聽音樂看小說騎腳踏車亂晃玩玩我的EII<br>
-			Nice to meet U~<br>
-			</h2>
-			<h4>My picture</h4>
-			<p><img src="http://i.imgur.com/YbLuTRo.jpg"></p> 
-		        <a href="https://www.facebook.com/profile.php?id=100000501011272">
-			<font color=#4F9D9D>My Facebook!!</font>
-		        </a>		
+	<body id="top">
+
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner" background-image="images/halloweenback.jpg">
+					<div class="inner">
+						<header>
+							<h1>Welcome to my space</h1>
+							<p>Happy Halloween!!!<br/>
+							designed by <a href="https://templated.co/">Templated</a> and released under the Creative Commons License.</p>
+						</header>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a class="image fit"><img src="images/fb.png" alt="" /></a>
+								<div class="inner">
+									<h3>My Facebook</h3>
+									<p>Click the button to enter my facebook!!</p>
+									<input type="button" class="button fit" value="Click here!!" onclick="location.href='https://www.facebook.com/profile.php?id=100000501011272'">
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/EBRwNll4Gbo?list=PLMfUey41vSTjvEqQdgJrNfm9Nc11HRwFV" class="image fit"><img src="images/halloweenvideo.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>WHY DO WE CELEBRATE HALLOWEEN?</h3>
+									<p>Have you ever wondered
+									why we dress up in costumes and ask our neighbors for candy?
+									This is the History Of Halloween!<br>
+									<font color="#FF8000">Click picture to watch!!</font>
+									</p>
+									<input type="button" class="button style2 fit" value="Watch on youtube!!" onclick="location.href='https://youtu.be/EBRwNll4Gbo?list=PLMfUey41vSTjvEqQdgJrNfm9Nc11HRwFV'">
+									<a href="https://youtu.be/EBRwNll4Gbo?list=PLMfUey41vSTjvEqQdgJrNfm9Nc11HRwFV" class="button style2 fit" data-poptrox="youtube,800x400" id="dontshow"></a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="images/me.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>About me</h3>
+									<p id="aboutme">
+										NCKU--EEman<br>
+										成功大學電機人<br>
+										哈囉我是電機系大二的張喬寓~~<br>
+										平常喜歡聽聽音樂、<br>
+										騎車到處亂晃<br>
+										或是晚上去路跑<br>
+										很高興認識你^^<br>
+										Welcome to my page!!	
+									</p>
+									<button id="show" class="button fit">Click here to show!!</button>
+									<button id="hide" class="button fit">Click here to hide!!</button>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/halloweenpic.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>title</h3>
+									<p>content</p>
+									<a href="https://youtu.be/-fxezpR7WE0" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>Etiam veroeros lorem</h2>
+						<p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
-
-
